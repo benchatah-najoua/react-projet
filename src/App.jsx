@@ -1,10 +1,14 @@
 import './App.css';
-import Form from './Form';
+// import StudentProfile from './StudentProfile';
+// import Pseudo from './Pseudo';
+import ProductList from './ProductList';
 
 function App() {
   return (
     <div>
-      <Form></Form>
+      {/* <Pseudo></Pseudo> */}
+      {/* <StudentProfile></StudentProfile> */}
+      <ProductList/>
     </div>
   );
 }

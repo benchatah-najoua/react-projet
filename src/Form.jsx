@@ -35,19 +35,19 @@ function Form(){
     return(
         <form>
             <label>First Name</label>
-            <input typr='text' value={name} onChange={(e)=>nameHandler(e)}></input>
+            <input type='text' value={name} onChange={(e)=>nameHandler(e)}></input>
             <div>{name}</div>
             <label>Last Name</label>
-            <input typr='text' value={lastname} onChange={(e)=>lastnameHandler(e)}></input>
+            <input type='text' value={lastname} onChange={(e)=>lastnameHandler(e)}></input>
             <div>{lastname}</div>
             <label>Street Address</label>
-            <input typr='text' value={address1} onChange={(e)=>address1Handler(e)}></input>
+            <input type='text' value={address1} onChange={(e)=>address1Handler(e)}></input>
             <div>{address1}</div>
             <label>Address Line 2</label>
-            <input typr='text' value={address2} onChange={(e)=>address2Handler(e)}></input>
+            <input type='text' value={address2} onChange={(e)=>address2Handler(e)}></input>
             <div>{address2}</div>
             <label>City</label>
-            <input typr='text' value={city} onChange={(e)=>cityHandler(e)}></input>
+            <input type='text' value={city} onChange={(e)=>cityHandler(e)}></input>
             <div>{city}</div>
             <label>State</label>
             <select name="region" value={state} onChange={(e)=>stateHandler(e)}>
